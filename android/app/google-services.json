@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "164055371792",
+    "project_id": "fir-fcm-2350d",
+    "storage_bucket": "fir-fcm-2350d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164055371792:android:b79638e4e6a7f4f7183a95",
+        "android_client_info": {
+          "package_name": "com.example.fcm_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTB1FpiTL3mckEYRmY-jjWVYoyIQ299mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
