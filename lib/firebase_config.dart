@@ -154,19 +154,19 @@ class FirebaseConfig {
   }
 
   void handleMessage(BuildContext context, RemoteMessage message) {
-    if (message.data['type'] == 'abc') {
+    if(message.notification?.title == 'abc'){
       Navigator.push(
         context,
         MaterialPageRoute(
           builder: (context) => HomeScreen(
-            id: message.data['id'],
+            data: message.notification?.title,
           ),
         ),
       );
     }
   }
 
-  Future foregroundMessage() async {
+  Future<void> foregroundMessage() async {
     await FirebaseMessaging.instance
         .setForegroundNotificationPresentationOptions(
       alert: true,
